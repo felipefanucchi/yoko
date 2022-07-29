@@ -1,62 +1,62 @@
-# TASK RUNNER
+# TASK EXECUTOR
 
-Isto é um pacote com dependencias para ajudar para um desenvolvimento uniforme e mais dinâmico.
+This is a package with dependencies to help smoother and more useful development.
 
-Por enquanto deverá seguir os padrões e estrutura de pastas manualmente.
+For now you must follow the patterns and mass structure manually.
 
-[Utilizar esta estrutura de pastas para o SCSS](https://github.com/felipefanucchi/pulso-test)
+[Use this mass structure for SCSS](https://github.com/felipefanucchi/pulso-test)
 
 
 ### Prerequisites
-Ter o ```Node``` instalado e o plugin ```editorConfig``` pois haverá sempre um arquivo **.editorconfig** que fará a padronização de espaços, quebra de linhas e charsets por exemplo.
+It will have the ```EditNode```` and the ```editConfig`` plugin, as there will always be a **Node```````editorconfig file.
 
 ### Installing
 
-Instalar as dependências do projeto.
+Install project dependencies.
 
 ```
-npm install || npm i
+npm install || npm me
 ```
 
-Em seguida
+Then
 
 ```
-gulp
+sip
 ```
 
-### Getting Started
+### Starting
 
-Para iniciarmos com um bom desenvolvimento, devemos seguir algumas boas práticas, que são elas, na minha opinião.
+To start with a good development, we must follow some good practices, which are them, in my opinion.
 
-* ```Git``` para o versionamento do projeto;
-* ```Npm``` para controle das informações do projeto;
-* ```Gulp``` para automatizar tarefas, como ```scss, minify, codeclean, autoprefixers ``` e etc...;
-* ```gitignore``` pois não queremos nossa pasta ```node_modules``` em nosso repositório, por ex.
+* ```Git``` for project versioning;
+* ```Npm``` to control project information;
+* ```Gulp``` to automate tasks, like ```scss, minify, codeclean, autoprefixers ``` and etc...;
+* ```gitignore`` as we don't want our ``node_modules``` folder in our area, eg.
 
 
-### Coding style
+### Encoding style
 
-Este pacote seguirá um padrão de desenvolvimento, são eles, para um desenvolvimento modular do projeto.
+This package will follow a development pattern, they are, for a modular development of the project.
 
-##### CSS
+#####CSS
 
 ```
-BEM
+WELL
 ```
 
-##### JS
+#####JS
 
 ```
 ES6 to ES5
 ```
 ```
-jQuery (se necessário)
+jQuery (if needed)
 ```
 ```
-Airbnb Styleguide (não necessário ainda, portanto eslint nao sera utilizado no momento)
+Airbnb Styleguide (not needed yet, so eslint will not be used at this time)
 ```
 ```
-Módulos com JS
+Modules with JS
 ```
 
 ## Authors
