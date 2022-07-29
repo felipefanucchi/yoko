@@ -4,6 +4,7 @@
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  transition: color 200ms, background-color 300ms, opacity 200ms;
 
   &:not(.btn-text) {
     border-radius: 4px 8px;
@@ -30,9 +31,18 @@
     background-color: transparent;
     color: utils.$light;
     border-color: utils.$light;
+
+    &:hover {
+      background: utils.$light;
+      color: utils.$color-primary;
+    }
   }
 
   &-text {
     color: utils.$color-primary;
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
 }

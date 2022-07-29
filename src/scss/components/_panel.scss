@@ -18,12 +18,18 @@
       utils.$color-secondary 0%,
       utils.$color-primary 50%,
       utils.$color-tertiary 100%);
+    background-size: 500% 500%;
+    animation-name: background-rotate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
   }
 
   &-heading {
     @include utils.fluid(30px, 80px, margin-bottom);
 
     display: grid;
+    gap: 30px;
 
     @media screen and (min-width: utils.$screen-md) {
       grid-template-columns: 1fr 1fr;
@@ -49,4 +55,16 @@
       background-color: utils.$light;
     }
   }
+}
+
+@keyframes background-rotate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
