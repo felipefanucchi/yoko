@@ -1,0 +1,33 @@
+// Container & grid
+$container: 1200px;
+
+// Media Queries
+$screen-xs: 320px;
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-max: 1920px;
+
+// Gutter
+$gutter: 40px;
+
+/**
+ * Colors
+ */
+
+// Base
+$light: #ffffff;
+$dark: #000000;
+
+// Shadows
+$grey: #404040;
+$grey-light: #f3f3f3;
+
+// Brand colors
+$color-primary: #bf2323; //RGB(191, 35, 35)
+$color-primary-light: #ef2c2c; //RGB(239, 44, 44)
+$color-secondary: #ffb820; //RGB(255, 186, 35)
+
+// Families
+$font-primary: "Manrope", sans-serif;

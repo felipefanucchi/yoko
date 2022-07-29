@@ -1,0 +1,8 @@
+.button {
+  font-weight: 700;
+
+  &-outline-light {
+    background-color: transparent;
+    color: utils.$light;
+  }
+}
