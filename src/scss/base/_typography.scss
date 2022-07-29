@@ -4,17 +4,21 @@
 }
 
 .heading-1 {
-  @include utils.fluid-type(30, 56);
+  @include utils.fluid(30px, 56px);
+
+  line-height: 1.25;
 }
 
 .heading-2 {
-  @include utils.fluid-type(18, 30);
+  @include utils.fluid(18px, 30px);
 }
 
 .text {
-  @include utils.fluid-type(14, 16);
+  @include utils.fluid(14px, 16px);
+
+  line-height: 1.8;
 }
 
 .text-small {
-  @include utils.fluid-type(11, 13);
+  @include utils.fluid(11px, 13px);
 }

@@ -1,0 +1,19 @@
+.cards-grid {
+  @include utils.fluid(20px, 40px, gap);
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: auto;
+
+  .card {
+    min-width: 220px;
+  }
+
+  @media screen and (min-width: utils.$screen-lg) {
+    overflow: initial;
+
+    .card {
+      min-width: auto;
+    }
+  }
+}

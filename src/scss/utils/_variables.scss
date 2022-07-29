@@ -1,5 +1,5 @@
 // Container & grid
-$container: 1200px;
+$container: 1240px;
 
 // Media Queries
 $screen-xs: 320px;
@@ -18,16 +18,18 @@ $gutter: 40px;
 
 // Base
 $light: #ffffff;
-$dark: #000000;
+$dark: #200046;
 
-// Shadows
-$grey: #404040;
-$grey-light: #f3f3f3;
+// Text colors
+$text: #270010;
+
+// Grays
+$gray: #FFDEE0;
 
 // Brand colors
-$color-primary: #bf2323; //RGB(191, 35, 35)
-$color-primary-light: #ef2c2c; //RGB(239, 44, 44)
-$color-secondary: #ffb820; //RGB(255, 186, 35)
+$color-primary: #BF0102;
+$color-secondary: #4D00AE;
+$color-tertiary: #1A003A;
 
 // Families
 $font-primary: "Manrope", sans-serif;

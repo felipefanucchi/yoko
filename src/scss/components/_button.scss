@@ -1,8 +1,38 @@
-.button {
+.btn {
+  letter-spacing: 0.05em;
+  line-height: 1.5;
   font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:not(.btn-text) {
+    border-radius: 4px 8px;
+    border: 1px solid;
+    padding: 10px 15px;
+  }
+
+  &-decoration {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      width: 1em;
+      height: 1px;
+      background-color: currentColor;
+    }
+  }
 
   &-outline-light {
     background-color: transparent;
     color: utils.$light;
+    border-color: utils.$light;
+  }
+
+  &-text {
+    color: utils.$color-primary;
   }
 }

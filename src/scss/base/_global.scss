@@ -1,4 +1,16 @@
 html,
 body {
   font-family: utils.$font-primary;
+  background-color: utils.$dark;
+}
+
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  max-width: utils.$container;
+  margin-left: auto;
+  margin-right: auto;
 }

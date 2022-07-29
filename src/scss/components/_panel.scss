@@ -1,3 +1,52 @@
 .panel {
-  $this: &;
+  @include utils.fluid(10px, 20px, padding);
+  @include utils.fluid(8px, 14px, border-radius);
+  @include utils.fluid(20px, 80px, margin-top);
+  @include utils.fluid(20px, 80px, margin-bottom);
+
+  border: 1px solid utils.$color-primary;
+
+  &.light {
+    color: utils.$light;
+  }
+
+  &-wrapper {
+    @include utils.fluid(20px, 80px, padding);
+    @include utils.fluid(5px, 12px, border-radius);
+
+    background: linear-gradient(110deg,
+      utils.$color-secondary 0%,
+      utils.$color-primary 50%,
+      utils.$color-tertiary 100%);
+  }
+
+  &-heading {
+    @include utils.fluid(30px, 80px, margin-bottom);
+
+    display: grid;
+
+    @media screen and (min-width: utils.$screen-md) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .panel-action {
+      justify-self: center;
+      align-self: flex-end;
+    }
+  }
+
+  &-title {
+    position: relative;
+    padding-top: 15px;
+
+    &::before {
+      content: '';
+      width: 15%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: utils.$light;
+    }
+  }
 }

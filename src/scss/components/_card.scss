@@ -1,2 +1,22 @@
 .card {
+  @include utils.fluid(15px, 40px, padding);
+  @include utils.fluid(10px, 25px, border-top-right-radius);
+  @include utils.fluid(10px, 25px, border-bottom-left-radius);
+
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: utils.$gray;
+  box-shadow: 0 0 24 rgba(0, 0, 0, 0.25);
+  color: utils.$text;
+  justify-content: center;
+
+  &-title {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    margin-top: 10px;
+  }
 }
